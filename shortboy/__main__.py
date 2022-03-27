@@ -5,7 +5,7 @@ import os
 infinity=1
 
 while infinity==1:
-  os.system("bash main.bash")
+  os.system("bash shortboy/main.bash")
   print("")
   a = input(Fore.MAGENTA+"Your Option:")
   if a==1:
