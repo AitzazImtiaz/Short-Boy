@@ -3,7 +3,7 @@ from colorama import Fore
 import os
 
 infinity=1
-
+os.system("clear")
 while infinity==1:
   os.system("bash shortboy/main.bash")
   print("")
