@@ -8,7 +8,7 @@ import requests
 
 api_key = "64d1303e4ba02f1ebba4699bc871413f0510a"
 # the URL you want to shorten
-url = input(Fore.MAGENTA+"Enter your url:")
+url = input("Enter your url:")
 
 # preferred name in the URL
 api_url = f"https://cutt.ly/api/api.php?key={api_key}&short={url}"
