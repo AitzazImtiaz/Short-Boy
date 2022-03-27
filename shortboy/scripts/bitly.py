@@ -31,7 +31,7 @@ else:
     print("[!] Cannot get GUID, exiting...")
     exit()
 # the URL you want to shorten
-url = input(Fore.MAGENTA+"Enter your URL:"")
+url = input(Fore.MAGENTA+"Enter your URL:")
 # make the POST request to get shortened URL for `url`
 shorten_res = requests.post("https://api-ssl.bitly.com/v4/shorten", json={"group_guid": guid, "long_url": url}, headers=headers)
 if shorten_res.status_code == 200:
