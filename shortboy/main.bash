@@ -38,3 +38,5 @@ echo "Select a weird option from:" | lolcat
 echo ""
 echo "1) Use Bitly Shortner" | lolcat
 echo "2) Use Cuttly Shortener" | lolcat
+echo "3) About Aitzaz Imtiaz" | lolcat
+echo "4) Exit" | lolcat
