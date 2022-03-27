@@ -7,7 +7,7 @@ os.system("clear")
 username = "stupidchills4u"
 password = "uselessvibes123!"
 
-print(Fore MAGENTA+"If this doesn't work, try Cuttly, it will always work.")
+print("If this doesn't work, try Cuttly, it will always work.")
 time.sleep(3)
 # get the access token
 auth_res = requests.post("https://api-ssl.bitly.com/oauth/access_token", auth=(username, password))
