@@ -18,6 +18,6 @@ while infinity==1:
     os.system("clear") 
     exit()
   else:
-    print(Fore.Red+"Short but wrong 😎")
+    print(Fore.RED+"Short but wrong 😎")
     time.sleep(2)
     os.system("clear")
