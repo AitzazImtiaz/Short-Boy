@@ -7,7 +7,7 @@ infinity=1
 while infinity==1:
   os.system("bash shortboy/main.bash")
   print("")
-  a = input(Fore.MAGENTA+"Your Option:")
+  a=int(input(Fore.MAGENTA+"Your Option:"))
   if a==1:
     os.system("python shortboy/scripts/bitly.py")
   elif a==2:
